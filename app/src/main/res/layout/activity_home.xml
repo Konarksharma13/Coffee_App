@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="in.ac.sharda.home.home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="54dp"
+        android:text="New User->"
+        android:textColor="#00ffff"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="212dp"
+        android:layout_y="43dp"
+        android:text="Signup"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="473dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColor="#00ffff"
+        android:textColorHint="#00ffff"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="561dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textColor="#00ffff"
+        android:textColorHint="#00ffff"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="515dp"
+        android:text="login"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

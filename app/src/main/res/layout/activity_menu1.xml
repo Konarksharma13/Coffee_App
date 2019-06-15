@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="in.ac.sharda.menu1.menu1">
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/spin">
+    </Spinner>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/back"
+        />
+
+
+</LinearLayout>

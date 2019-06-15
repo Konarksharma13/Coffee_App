@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="162dp"
+        android:layout_x="0dp"
+        android:layout_y="40dp"
+        android:paddingLeft="50dp"
+        android:text="Coffee Joint"
+        android:textColor="#a0522d"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_x="100dp"
+        android:layout_y="200dp"
+        android:id="@+id/menu"
+        />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="306dp"
+        android:text="PLACE ORDER"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

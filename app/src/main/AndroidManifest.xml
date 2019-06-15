@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ac.sharda.coffee">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Coffee Joint"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="in.ac.sharda.aff"></activity>
+        <activity android:name="in.ac.sharda.mo" />
+        <activity android:name="in.ac.sharda.pl" />
+        <activity android:name="in.ac.sharda.fw" />
+        <activity android:name="in.ac.sharda.cap" />
+        <activity android:name="in.ac.sharda.cl" />
+        <activity android:name="in.ac.sharda.lb" />
+        <activity android:name="in.ac.sharda.ri" />
+        <activity android:name="in.ac.sharda.lm" />
+        <activity android:name="in.ac.sharda.sm" />
+        <activity android:name="in.ac.sharda.de" />
+        <activity android:name="in.ac.sharda.es" />
+        <activity android:name="in.ac.sharda.signIn.signIn" />
+        <activity android:name="in.ac.sharda.menu.menu" />
+        <activity android:name="in.ac.sharda.signup.signup" />
+        <activity android:name="in.ac.sharda.login.login" />
+        <activity android:name="in.ac.sharda.home.home" />
+        <activity android:name="in.ac.sharda.menu1.menu1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

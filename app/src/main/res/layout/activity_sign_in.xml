@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context="in.ac.sharda.signIn.signIn">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="13dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="93dp"
+        android:hint="Full name"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="175dp"
+        android:hint="Phone no"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/grp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="257dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="406dp"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="489dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="570dp"
+        android:text="Create new Id"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="571dp"
+        android:text="Back"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
